@@ -3,9 +3,10 @@ package _example
 import (
 	"context"
 	"fmt"
-	keycloak "github.com/stillya/testcontainers-keycloak"
 	"os"
 	"testing"
+
+	keycloak "github.com/fcote/testcontainers-keycloak"
 )
 
 var keycloakContainer *keycloak.KeycloakContainer
